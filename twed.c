@@ -1,8 +1,9 @@
 /*  Wrapping KDTW similarity function with the Python-C-API. */
 
 // YOU ARE POSSIBLY NEEDED TO CORRECT THE PATHS TO NUMPY HEADERS TO INCLUDE Python.h and arrayobject.h AS I DID BELOW
-#include </usr/include/python3.10/Python.h>
-#include </usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h>
+// #include </usr/include/python3.10/Python.h>
+#include <Python/Python.h>
+// #include </usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h>
 #include <math.h>
 
 /* ==== powered Minkowski Distance   ======================
